@@ -13,3 +13,5 @@ This section describes the different parts of the Way of the Warrior site.
     - Featured on all pages, the navigation bar includes links to the Home page (school), Training, Pricing and Contact page and is identical in each page to allow for easy navigation.
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
+- ___Hero: Landing Page Image__
+    - This section features an image that serves as an eye-catcher to capture the user's attention, accompanied by a meaningful headline that informs the user of their location on the page and what to expect on this page.
