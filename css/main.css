@@ -1,0 +1,120 @@
+:root {
+    /* colors */
+    --color-primary: #527C43;
+    --color-secondary: #202C28;
+    --color-accent: #ebb40f;
+    --color-header: #FBFAF8;
+    --color-gray: #bfc5bf4d;
+    --color-white: #ffffff;
+    --color-black: #262626;
+
+    /* fonts */
+    --font-family-primary: sans-serif;
+}
+
+/* ---------------------- */
+/* RESET                  */
+/* ---------------------- */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height:100%;
+}
+
+/* Reset margins */
+body,
+h1, h2, h3, h4, h5, p,
+figure, picture {
+    margin: 0;
+}
+
+
+/* ---------------------- */
+/* GENERAL SETTINGS       */
+/* ---------------------- */
+
+/* set up the body */
+body {
+    font-family: var(--font-family-primary);
+    font-weight: 300;
+    font-size: 1rem;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    line-height: 1.5;
+    height:100%;
+}
+
+/* ---------------------- */
+/* NAVIGATION             */
+/* ---------------------- */
+.header {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-black);
+    background: var(--color-header);
+    padding: 10px;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    width:100%;
+
+    box-shadow: 0px 4px 6px rgba(15, 56, 116, 0.1);
+}
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-left: 20px;
+}
+
+  /* Navigation logo */
+  /* ---------------------- */
+  .logo-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    white-space: break-spaces;
+    
+  }
+  .logo-title {
+    font-size: 2rem;
+  }
+  .logo-title-small {
+    font-size: 1.25rem;
+  }
+  .logo-img {
+    width:75px;
+  }
+
+  /* Navigation links */
+  /* ---------------------- */
+  .navigation > li {
+    list-style: none;
+  }
+
+  .navigation a {
+    color: var(--color-black);
+    text-decoration: none;
+  }
+  .navigation a.active {
+    color: var(--color-black);
+    text-decoration: underline;
+    text-decoration-color: var(--color-black);
+  }
+  .navigation a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-decoration-color: var(--color-primary);
+  }
