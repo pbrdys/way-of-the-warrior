@@ -188,17 +188,17 @@ main {
 
 /* Hero Sections */ 
 .hero-img-index {
-  background-image: url(../img/hero/hero-index.png);
+  background-image: url(../../assets/img/hero/hero-index.png);
 }
 .hero-img-training {
-  background-image: url(../img/hero/hero-training.jpg);
+  background-image: url(../../assets/img/hero/hero-training.jpg);
   background-position: left !important;
 }
 .hero-img-price {
-  background-image: url(../img/hero/hero-price.jpg);
+  background-image: url(../../assets/img/hero/hero-price.jpg);
 }
 .hero-img-contact {
-  background-image: url(../img/hero/hero-contact.jpg);
+  background-image: url(../../assets/img/hero/hero-contact.jpg);
   background-position: left !important;
 }
 .hero-section {
