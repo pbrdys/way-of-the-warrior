@@ -6,6 +6,8 @@
     <title>Training - Way of the Warrior</title>
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/main.css">
+    <!-- JS -->
+    <script src="js/script.js"></script>
 </head>
 <body>
     <header class="header">
@@ -44,6 +46,66 @@
                         essential elements such as stances, stretching, body flexibility, and power generation.
                     </p>
                 </div>
+            </div>
+        </section>
+        <!-- STYLES TAB SECTION -->
+        <section class="styles-section">
+            <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Taiji')" id="defaultOpen">Taiji</button>
+            <button class="tablinks" onclick="openTab(event, 'Bagua')">Bagua</button>
+            <button class="tablinks" onclick="openTab(event, 'XingYi')">Xing Yi</button>
+            <button class="tablinks" onclick="openTab(event, 'QiGong')">Qi Gong</button>
+            </div>
+
+            <div id="Taiji" class="tabcontent">
+                <h3>Taiji</h3>
+                <p>An art of smooth and harmonious movements, flowing and yielding like water.
+                    Movement in stillness, stillness in motion.
+                    Yin and Yang are in harmony.
+                </p>
+                <iframe class="video" src="https://www.youtube.com/embed/4c-ywGdAiAo?si=DPecEisrywAbAtjs" 
+                title="What is Taiji?" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+            </div>
+
+            <div id="Bagua" class="tabcontent">
+                <h3>Bagua</h3>
+                <p>"Hand of the 8 Trigrams" the art of walking in circles. 
+                    The essential feature of the Bagua is the agile step work by running in circles and 
+                    developing spiral-strength within the movements.
+                </p> 
+                <iframe class="video" src="https://www.youtube.com/embed/cAhxf3WANtc?si=tLlESJTDsLCAUaS-" 
+                    title="Wudang Baguazhang" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+            </div>
+
+            <div id="XingYi" class="tabcontent">
+                <h3>Xing Yi</h3>
+                <p>"Fist of Form and Mind", originally derived from spear techniques, 
+                    Xing Yi is a very straightforward and explosive forward-pointing style and is 
+                    therefore traditionally learned as a complement to Bagua Zhang.
+                </p>
+                <iframe class="video" src="https://www.youtube.com/embed/IImqslcSTtM?si=S2CUoXV8_ZBSNjW_" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+            </div>
+
+            <div id="QiGong" class="tabcontent">
+                <h3>Qi Gong</h3>
+                <p>"Inner work" includes all meditation, qigong, and practices of self-cultivation. 
+                    The bottom line is: "there is no inner or outer work". 
+                    Training the body is training the mind, training the mind is 
+                    training the body is...
+                </p>
+                <iframe class="video" src="https://www.youtube.com/embed/faCUU9nYBDc?si=QjFMTrjmOqKH8WIs" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
             </div>
         </section>
     </main>
