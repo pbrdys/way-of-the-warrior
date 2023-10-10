@@ -521,6 +521,7 @@ input, button, textarea, select {
 }
 
 /* The Art of Section */ 
+/* ---------------------- */
 .section-art {
   background-color: var(--color-secondary-alpha-09);
   color: white;
@@ -532,6 +533,7 @@ input, button, textarea, select {
 }
 
 /*Training Schedule */
+/* ---------------------- */
 .section-schedule {
   font-size: 13px;
   padding: 10% 1% 0% 1%;
@@ -562,6 +564,72 @@ input, button, textarea, select {
   justify-content: center;
   flex-direction: column;
 }
+
+/* Price Page Intro */ 
+.intro-price {
+  padding: 5%;
+}
+
+/* Price Table Section */
+/* ---------------------- */
+.price-table-section {
+  padding-inline: 1%;
+  margin-bottom: 20px;
+}
+.single-price {
+  transition: .7s;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 2rem;
+}
+.single-price h3 {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  margin-top: -80px;
+  color: var(--color-white);
+}
+.single-price h4 {
+  text-align:center;
+  font-size: 48px;
+  font-weight: 500;
+}
+.single-price h4 span.sup {
+  vertical-align: text-top;
+  font-size: 25px;
+}
+.deal-top {
+  position: relative;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 136px 24px 0;
+  border-radius: 2rem 2rem 0 0;
+}
+.deal-top-color-1 {
+  background: rgb(184, 8, 14);
+  color: #2e2d2d;
+}
+.deal-top-color-2 {
+  background: #f5c826;
+}
+.deal-top-color-3 {
+  background: rgb(40, 128, 101);
+}
+.deal-top-color-4 {
+  background: black;
+}
+.deal-bottom {
+  padding: 20px 30px 0;
+}
+.deal-bottom p {
+    text-align:left;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
 
 /* ---------------------- */
 /* FOOTER                 */
