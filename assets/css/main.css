@@ -734,6 +734,14 @@ footer a {
     flex: 0 0 33%;
     max-width: 33%;
   }
+  .flex-item-41 {
+    flex: 0 0 41%;
+    max-width: 41%;
+  }
+  .flex-item-33 {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
 
   /* Homepage               */
   /* ---------------------- */
@@ -829,8 +837,12 @@ footer a {
     min-height: 500px;
   }
   .flex-item-pc {
-    flex: 0 0 30%;
-    max-width: 30%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .flex-item-20 {
+    flex: 0 0 23%;
+    max-width: 23%;
   }
 
   /* Homepage               */
