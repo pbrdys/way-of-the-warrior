@@ -298,10 +298,10 @@ input, button, textarea, select {
     
   }
   .logo-title {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   .logo-title-small {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   .logo-img {
     width:75px;
@@ -431,6 +431,9 @@ input, button, textarea, select {
   padding: 10% 5%;
   background-color:var(--color-gray);
 }
+.info-btn-container {
+  text-align: right;
+}
 
 /* 5 Pillars of Kung Fu */ 
 /* ---------------------- */
@@ -470,6 +473,10 @@ input, button, textarea, select {
   align-items: center;
 
   margin-top: 25px;
+}
+.pillar-item img {
+  width: 80%;
+  max-width: 289px;
 }
 .pillar-item h3 {
   text-transform: uppercase;
@@ -673,17 +680,23 @@ input, button, textarea, select {
 footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  
+
   padding-bottom: 50px;
   background-color: var(--color-secondary);
   color: var(--color-white);
+  gap: 20px;
+}
+.footer-row {
+  display: flex;
+  flex-direction: row;
+
+  gap: 20px;
+  flex-wrap: wrap;
 }
 .footer-item {
   text-align: center;
   flex-grow: 1;
-  flex-wrap: wrap;
+  max-width: 100%;
 }
 footer h3 {
   font-size: 20px;
@@ -696,4 +709,75 @@ footer h3 {
 }
 footer a {
   text-decoration: none;
+}
+
+
+
+/* ---------------------- */
+/* MEDIA QUERYS           */
+/* ---------------------- */
+
+/* Tablet                 */
+/* ---------------------- */
+@media (min-width: 610px) {
+
+  /* General                */
+  /* ---------------------- */
+  .footer-row {
+    flex-direction: row;
+  }
+
+  /* Homepage               */
+  /* ---------------------- */
+  .hero-section {
+    margin-top: 95px;
+  }
+  .intro-section {
+    padding: 5% 5%;
+  }
+  .five-pillars-section {
+    padding: 5% 5%;
+  }
+}
+
+
+/* Desktop                */
+/* ---------------------- */
+@media (min-width: 1100px) {
+
+  /* General                */
+  /* ---------------------- */
+  .header {
+    padding-right: 40px;
+  }
+  .footer-row {
+    justify-content: center;
+  }
+  .footer-item {
+    max-width: 80%;
+  }
+
+  /* Homepage               */
+  /* ---------------------- */
+  .info-btn-container {
+    text-align: left;
+  }
+  .pillar-items-group-1 {
+    order: 2;
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+  .pillar-items-group-2 {
+    order: 1;
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+  .pillar-items-group-3 {
+    order: 3;
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+  .pillar-items-group-4 {
+    order: 4;
+  }
 }
