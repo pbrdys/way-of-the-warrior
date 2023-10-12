@@ -584,6 +584,7 @@ input, button, textarea, select {
 /* Price Page Intro */ 
 .intro-price {
   padding: 5%;
+  text-align: center;
 }
 
 /* Price Table Section */
@@ -648,17 +649,17 @@ input, button, textarea, select {
 
 /* Form Section */
 .intro-contact {
-  padding: 5%;
+  padding:  5% 15% 0% 15%;
 }
 .form-section {
   padding: 5%;
+  box-shadow: 0px 4px 6px rgba(15, 56, 116, 0.1);
 }
 .form-section label {
   font-weight: bold;
 }
 .form-control {
   display: block;
-  width: 100%;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
@@ -668,6 +669,12 @@ input, button, textarea, select {
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-control-input {
+  width: 50%;
+}
+.form-control-textarea {
+  width: 100%;
 }
 .form-control:focus {
   color: #495057;
@@ -727,16 +734,26 @@ footer a {
 
   /* General                */
   /* ---------------------- */
+  h1 {
+    font-size: 3rem;
+    line-height: 4.75rem;
+  }
+  .h1-small {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  h2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    padding-bottom: 20px;
+  }
+  
   .footer-row {
     flex-direction: row;
   }
-  .flex-item-tab {
-    flex: 0 0 33%;
-    max-width: 33%;
-  }
   .flex-item-41 {
-    flex: 0 0 41%;
-    max-width: 41%;
+    flex: 0 0 50%;
+    max-width: 50%;
   }
   .flex-item-33 {
     flex: 0 0 33%;
@@ -802,19 +819,7 @@ footer a {
   body {
     font-size: 1.25rem;
   }
-  h1 {
-    font-size: 2.5rem;
-    line-height: 4.75rem;
-  }
-  .h1-small {
-    font-size: 1.5rem;
-    line-height: 1.75rem;
-  }
-  h2 {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-    padding-bottom: 20px;
-  }
+  
   .header {
     padding-right: 40px;
   }
@@ -835,10 +840,6 @@ footer a {
   }
   .hero-section {
     min-height: 500px;
-  }
-  .flex-item-pc {
-    flex: 0 0 25%;
-    max-width: 25%;
   }
   .flex-item-20 {
     flex: 0 0 23%;
@@ -876,7 +877,7 @@ footer a {
   }
   .styles-section {
     margin-block: 3%;
-    margin-inline: 15%;
+    margin-inline: 5%;
   }
   .tabcontent iframe {
     text-align: center;
@@ -889,7 +890,7 @@ footer a {
     padding-block: 5%;
   }
   .section-schedule {
-    padding: 10% 10% 0% 10%;
+    padding: 5% 10% 0% 10%;
   }
   .section-schedule {
     font-size: 1.25rem;
