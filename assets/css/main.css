@@ -4,7 +4,7 @@
     --color-primary: #527C43;
     --color-secondary: #202C28;
     --color-secondary-alpha-09: hsla(160, 16%, 15%, 0.9);
-    --color-accent: #F9A620;
+    --color-accent: #d28303;
     --color-header: #FBFAF8;
     --color-gray: #bfc5bf4d;
     --color-gray-secondary: #7C857F;
@@ -155,10 +155,10 @@ input, button, textarea, select {
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   background-color: var(--color-accent); 
-  color: var(--color-white);
+  color: var(--color-black);
 
   padding: 0.3rem 0.6rem;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   line-height: 1.5;
 
   text-decoration: none;
@@ -173,8 +173,7 @@ input, button, textarea, select {
 /* Images */
 /* ---------------------- */
 .round-img {
-  clip-path: circle();
-  height:300px !important;
+  border-radius: 50%;
 }
 
 
@@ -337,7 +336,7 @@ input, button, textarea, select {
   min-width: 0;
   min-height: 100%;
   word-wrap: break-word;
-  background-color: var(--color-gray-secondary);
+  background-color: #57625f;
   background-clip: border-box;
   border-radius: 20px;
   margin-bottom: 2rem;
@@ -351,18 +350,16 @@ input, button, textarea, select {
   border-top-right-radius: 20px;
 }
 .box-img {
-  width: 100%;
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
-  
-  height: 300px;
   object-position: center;
   object-fit: cover;
+  border-radius: 50%;
+  width: 60%;  
+  height: 60%;
 }
 .box-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  color: var(--color-white);
+  color: var(--color-black);
   border-top: 1px solid var(--color-accent);
   border-bottom: 1px solid var(--color-accent);
   background-color: var(--color-accent);
@@ -424,6 +421,13 @@ input, button, textarea, select {
   background: var(--color-secondary);
   z-index: -1;
   opacity: 0.4;
+}
+.hero-heading-box {
+  color: var(--color-white);
+  background-color: var(--color-black);
+  opacity: 0.8;
+  width:100%;
+  padding: 2%;
 }
 
 /* Intro */ 
@@ -564,13 +568,14 @@ input, button, textarea, select {
   border-top: 1px solid black;
   border-right: 1px solid black;
   width:100%;
+  overflow-x: scroll;
 }
 .schedule-header {
   font-weight: bold;
   background-color: var(--color-gray); 
   color: var(--color-secondary);
 }
-.schedule-grid span {
+.schedule-grid div {
   padding: 8px 4px;
   border-left: 1px solid black;
   border-bottom: 1px solid black;
@@ -629,7 +634,7 @@ input, button, textarea, select {
   color: #2e2d2d;
 }
 .deal-top-color-2 {
-  background: #f5c826;
+  background: #d28303;
 }
 .deal-top-color-3 {
   background: rgb(40, 128, 101);
@@ -765,6 +770,9 @@ footer a {
   .hero-section {
     margin-top: 95px;
   }
+  .hero-heading-box {
+    width:80%;
+  }
   .intro-section {
     padding: 5% 5%;
   }
@@ -848,6 +856,9 @@ footer a {
 
   /* Homepage               */
   /* ---------------------- */
+  .hero-heading-box {
+    width:40%;
+  }
   .info-btn-container {
     text-align: left;
   }
@@ -891,8 +902,9 @@ footer a {
   }
   .section-schedule {
     padding: 5% 10% 0% 10%;
-  }
-  .section-schedule {
     font-size: 1.25rem;
+  }
+  .schedule-grid {
+    overflow-x: hidden;
   }
 }
