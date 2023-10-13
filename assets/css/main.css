@@ -87,6 +87,7 @@ main {
 /* ---------------------- */
 .color-white { color: var(--color-white); }
 .color-accent { color: var(--color-accent); }
+.color-primary { color: var(--color-primary); }
 
 /* Typography */
 /* ---------------------- */
@@ -168,6 +169,17 @@ input, button, textarea, select {
   background-color: var(--color-white);
   color: var(--color-accent);
   cursor: pointer;
+}
+
+/* Links */
+/* ---------------------- */
+.primary-link {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+.primary-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
 }
 
 /* Images */
@@ -396,6 +408,9 @@ input, button, textarea, select {
 .hero-img-contact {
   background-image: url(../../assets/img/hero/hero-contact.jpg);
   background-position: left !important;
+}
+.hero-img-thank-you {
+  background-image: url(../../assets/img/hero/hero-thank-you.jpg);
 }
 .hero-section {
   background-size: cover;
@@ -654,11 +669,10 @@ input, button, textarea, select {
 
 /* Form Section */
 .intro-contact {
-  padding:  5% 15% 0% 15%;
+  padding:  5% 5% 0% 5%;
 }
 .form-section {
   padding: 5%;
-  box-shadow: 0px 4px 6px rgba(15, 56, 116, 0.1);
 }
 .form-section label {
   font-weight: bold;
@@ -676,7 +690,7 @@ input, button, textarea, select {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .form-control-input {
-  width: 50%;
+  width: 80%;
 }
 .form-control-textarea {
   width: 100%;
@@ -689,6 +703,14 @@ input, button, textarea, select {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
+/* Thank You Section */
+/* ---------------------- */
+.intro-thank-you {
+  padding:  5% 5% 5% 5%;
+}
+.intro-thank-you ul {
+  list-style: none;
+}
 
 /* ---------------------- */
 /* FOOTER                 */
@@ -906,5 +928,13 @@ footer a {
   }
   .schedule-grid {
     overflow-x: hidden;
+  }
+  /* Contact */
+  /* ---------------------- */
+  .intro-contact {
+    padding:  5% 15% 0% 15%;
+  }
+  .form-control-input {
+    width: 60%;
   }
 }
