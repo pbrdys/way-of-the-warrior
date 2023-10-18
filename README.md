@@ -24,7 +24,7 @@ This section describes the different parts of the Way of the Warrior site.
 
 - __Homepage: Introduction Section__
     - This section provides a general overview of the school and the content that users can expect to find on this site.
-    ![Hero Image](doc/hero-index.jpg)
+    ![Introduction Section](doc/introduction-section.jpg)
 
 - __Homepage: What is Kung Fu Section__ 
     - This section the user receives information about what Kung Fu actually is because Kung Fu is more than just fighting. A coherent and well-structured presentation makes it easier for the user to gain an overview of this topic.
