@@ -3,21 +3,30 @@
  The site is targeting everyone who is seeking to improve their health, body, and mindfulness through the practice of a martial art.
  Way of the Warrior serves as a valuable resource for individuals seeking their first insights into Kung Fu, its various styles, and the opportunity to participate in actual classes. 
  Users can easily access information about the training schedule, make informed decisions about attendance, explore pricing options, and effortlessly reach out to the school for additional details.
+
  ![Mockup](doc/index-mockup.jpg)
+
+ The website is live at [https://pbrdys.github.io/way-of-the-warrior/](https://pbrdys.github.io/way-of-the-warrior/)
 
 ## Features 
 This section describes the different parts of the Way of the Warrior site. 
 
 ### Existing Features
 
+- __Favicon__
+    - This feature enhances brand recognition and user experience by providing a distinctive visual identity in browser tabs and bookmarks, making it easier for users to locate and return to the site.
+    ![Favicon](doc/favicon.jpg)
+
 - __Navigation Bar__
     - The Navifation bar is featured on all pages, it includes links to the Home page (school), Training, Pricing and Contact page and is identical in each page to allow for easy navigation.
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
     - The navigation bar highlights the active page, ensuring a intuitive user experience. 
+    - The navigation bar sticks to the top of the page, ensuring it remains accessible to the user at all times, eliminating the need to scroll up for site navigation.
     ![Navigation Bar](doc/navigation-bar.jpg)
 
-- __Hero Image on all pages__
+- __All Pages: Hero Image__
     - This section features an image that serves as an eye-catcher to capture the user's attention, accompanied by a meaningful headline that informs the user of their location on the page and what to expect on this page.
+    - This feature is implemented on the following pages: School, Training, Price, Contact and Thank You Page.
     - Each page features a different hero image, helping users in distinguishing their location within the site.
     - The graphic displayed below shows the hero image for the School / Index page.
     ![Hero Image](doc/hero-index.jpg)
@@ -31,30 +40,30 @@ This section describes the different parts of the Way of the Warrior site.
     - The user will see the value of practicing Kung Fu.
     ![What is Kung Fu?](doc/what-is-kung-fu-section.jpg)
 
-- __Training Page: Kung Fu Styles__
+- __Training-Page: Kung Fu Styles__
     - In this section the user gets an general overview of the different Kung Fu styles he can learn at this school.
     ![Kung Fu Styles Introduction](doc/kung-fu-styles-introduction.jpg)
 
-- __Training Page: Tabbed Style Section__ 
+- __Training-Page: Tabbed Style Section__ 
     - This section provides in-depth information for each individual style. 
     - The included videos support and help the user to gain a clearer understanding of the specific styles.
     ![Tabbed Style Section](doc/tabbed-style-section.jpg)
 
-- __Training Page: The art of Kung Fu includes ...__
+- __Training-Page: The art of Kung Fu includes ...__
     - This section explains the various purposes of Kung Fu. This information is referenced in the training schedule below.
     ![The Art of Kung Fu](doc/the-art-of-kung-fu.jpg)
 
-- __Training Page: Training Schedule__
+- __Training-Page: Training Schedule__
     - This section displays the training schedule and provides information for the user about the timing of each class.
     - The colors used here indicate the type of training the user can expect when joining one of these classes.
     ![Training Schedule](doc/training-schedule.jpg)
 
-- __Price Page: Pricing Cards__
+- __Price-Page: Pricing Cards__
     - This section displays the different price categories available to the user and what each of them offers. 
     - These categories are designed to cater to the various needs of the students, recognizing that everyone has different financial circumstances. The aim is to make the training accessible to a wide range of individuals.
     ![Pricing Cards](doc/price-cards.jpg)
 
-- __Contact: Form__ 
+- __Contact-Page: Form__ 
     - This section offers a convenient way to contact the school.
     - Users have the opportunity to ask questions or request information about the school or the training.
     - After submitting the form, the user will be redirected to a Thank You Page.
@@ -78,13 +87,10 @@ This section describes the different parts of the Way of the Warrior site.
     ![404 Page](doc/404.jpg)
 
 - __Footer__ 
+    - The footer can be found on all pages.
     - The footer section includes contact information that allows the user to easily get in touch with the school, ensuring a seamless and convenient way to reach out for inquiries, assistance, or feedback.
     - The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user. The footer is valuable to the user as it encourages them to keep connected via social media.
     ![Footer](doc/footer.jpg)
-
-- __Favicon__
-    - This feature enhances brand recognition and user experience by providing a distinctive visual identity in browser tabs and bookmarks, making it easier for users to locate and return to the site.
-    ![Favicon](doc/favicon.jpg)
 
 ### Future Features
 The following features are not available in this release, but will be implemented in the future. 
@@ -94,10 +100,15 @@ The following features are not available in this release, but will be implemente
 
 ## Test
 Before deploying this site, it's essential to thoroughly test it to ensure that everything is functioning as expected. 
-Here are the steps to test this site:
+Following tests have been run:
 
 ### 1. Open in Local Browser
-To start testing this site, open it in your local web browser. Ensure that all the pages load correctly, and the navigation is functional. 
+To start testing this site, open it in your local web browser. 
+Ensure that this website is accessible via internet. 
+| Description                                   | Action                                                                   | Expexted Result                              | Pass/Fail |
+| --------------------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------- | --------- |
+| Test: The site is accessible via the internet | type in url(https://pbrdys.github.io/way-of-the-warrior/) in any browser | Site is opening and displayed in the browser | Pass      |
+
 Pay close attention to:
     - Links: Click all links and verify that they lead to the correct pages.
     - Images: Confirm that images are displayed correctly and load quickly.
