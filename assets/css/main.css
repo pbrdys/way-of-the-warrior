@@ -311,7 +311,7 @@ input, button, textarea, select {
   gap: 1rem;
 
   position: fixed;
-  inset: 75px 0 0 30%;
+  inset: 64px 0 0 30%;
   flex-direction: column;
   padding: min(10vh, 3rem) 2rem;
   height: 100%;
@@ -348,7 +348,7 @@ input, button, textarea, select {
     font-size: 1rem;
   }
   .logo-img {
-    width:75px;
+    width:60px;
   }
 
   /* Navigation links */
@@ -460,7 +460,7 @@ input, button, textarea, select {
   min-height:400px;
 
   position:relative;
-  margin-top:151px; /* the height of navigation in 360px width mobile device */
+  margin-top: 80px; /* the height of navigation in 360px width mobile device */
   isolation:isolate; /* creating stacking context */
 }
 .hero-section::after {
@@ -840,6 +840,9 @@ footer a {
   }
   .nav-toggle-label {
     display: none;
+  }
+  .logo-img {
+    width:75px;
   }
 
   /* Homepage               */
