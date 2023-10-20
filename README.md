@@ -163,6 +163,7 @@ WAVE Web Accessibility Evaluation Tool was used to assess the accessibility of w
 | Test: Every page has a correct heading hirarchy, no heading was skipped | Open every page and run "WAVE" | Every page has the right heading hirarchy. From 1 to 4               | Pass      |
 | Test: Every image has an alt-text                                       | Open every page and run "WAVE" | Every image has an meaningful alt-text                               | Pass      |
 | Test: Contrast of all page elements matches the accessibility criteria  | Open every page and run "WAVE" | Every part of the page meets the contrast criteria for accessibility | Pass      |
+
 ![WAVE Web Accessibility Evaluation](doc/wave.jpg)
 
 ### 7. Validator Testing 
@@ -180,7 +181,7 @@ WAVE Web Accessibility Evaluation Tool was used to assess the accessibility of w
 | ------------------------------------------ | ---------------------------------------------- | ------------------------------------------------- | ------------------------------- |
 | All Pages are responsive and don't overflow| Training Schedule in training.html overflowing | DevTools -  Dimension 250px width (mobile device) | overflow-x: scroll added to css |
 
-Image of the Bug: 
+Image of the Bug: <br>
 ![Training Schedule Overflow](doc/bug-training-schedule-overflow.jpg)
 
 ## Deployment
@@ -203,11 +204,11 @@ All files has been commited during the development process to GitHub.
 
 ### 3. Deploy site
 I deployed the site using GitHub Pages. The steps were:
-    - On the GitHub page for this project, go to the 'Settings' menu
-    - Go to 'Pages'
-    - Under 'Build and deployment > Branch', select 'main'
-    - Click 'Save'
-    - From now on the site will be accessible at a URL like `https://pbrdys.github.io/way-of-the-warrior/`.
+- On the GitHub page for this project, go to the 'Settings' menu
+- Go to 'Pages'
+- Under 'Build and deployment > Branch', select 'main'
+- Click 'Save'
+- From now on the site will be accessible at a URL like `https://pbrdys.github.io/way-of-the-warrior/`.
 
 
 ## Credits
