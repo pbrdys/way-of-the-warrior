@@ -210,6 +210,25 @@ I deployed the site using GitHub Pages. The steps were:
 - Click 'Save'
 - From now on the site will be accessible at a URL like `https://pbrdys.github.io/way-of-the-warrior/`.
 
+#### Cloning
+Navigate to the GitHub Repository you want to clone to use locally:
+In this case: `https://github.com/pbrdys/way-of-the-warrior`
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
+The project will now have been cloned on your local machine for use.
+
+#### How to install git on your computer:
+We are using Windows, so the documentation provided here is specific to Windows. If you are using macOS or Linux, you can easily find installation instructions for Git by performing a web search.
+
+Git for Windows (Git Bash):
+- Go to the official Git website for Windows: https://gitforwindows.org/
+- Download the latest version of Git for Windows.
+- Run the installer and follow the installation wizard's instructions.
+- During the installation, you can select various options. The default options are usually fine for most users.
+
 
 ## Credits
 
